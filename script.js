@@ -107,7 +107,7 @@ var tdata8 = document.createElement("td")
 //now text inserted in tabled date
 tdata1.innerHTML= fname;
 tdata2.innerHTML= lname;
-tdata3.innerHTML= Address.value;
+tdata3.innerHTML= Address;
 tdata4.innerHTML= pin;
 tdata5.innerHTML= gender;
 tdata6.innerHTML= food;
