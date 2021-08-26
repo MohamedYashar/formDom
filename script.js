@@ -4,9 +4,6 @@ var button = document.getElementById("submit");
 
 button.addEventListener("click",function(x){
     x.preventDefault();
-    var Address =[];
-    console.log(Address);
-    Address.push(Address.value);
 
     // FOR GENDER INPUT IN FORM
 var gender = document.getElementsByName("gender");
@@ -110,7 +107,7 @@ var tdata8 = document.createElement("td")
 //now text inserted in tabled date
 tdata1.innerHTML= fname;
 tdata2.innerHTML= lname;
-tdata3.innerHTML= Address;
+tdata3.innerHTML= Address.value;
 tdata4.innerHTML= pin;
 tdata5.innerHTML= gender;
 tdata6.innerHTML= food;
